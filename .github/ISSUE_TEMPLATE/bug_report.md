@@ -1,35 +1,38 @@
-name: Bug Report
-description: Relate um problema encontrado na aplicação
-title: "[BUG]: "
-labels: [bug]
-body:
-  - type: markdown
-    attributes:
-      value: "Por favor, preencha as informações abaixo para relatar o problema."
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
-  - type: input
-    id: sistema-operacional
-    attributes:
-      label: "Sistema Operacional"
-      description: "Qual sistema operacional você está usando?"
-      placeholder: "Windows 11, Ubuntu 22.04, etc."
+---
 
-  - type: textarea
-    id: descricao
-    attributes:
-      label: "Descrição do problema"
-      description: "Explique o problema encontrado."
-      placeholder: "Ocorre um erro ao tentar acessar a funcionalidade X..."
-      value: ""
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-  - type: dropdown
-    id: prioridade
-    attributes:
-      label: "Prioridade"
-      description: "Qual a prioridade desse bug?"
-      options:
-        - Baixa
-        - Média
-        - Alta
-    validations:
-      required: true
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
+
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
